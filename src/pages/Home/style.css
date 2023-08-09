@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container header {
+    margin-top: 24px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container header img {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+
+.container header div {
+    display: flex;
+    align-items: center;
+}
+
+.container input {
+    width: 50%;
+    padding: 20px 16px;
+    background: #e6e6e6;
+    font-size: 16px;
+}
+
+.container button {
+    width: 50%;
+    padding: 16px;
+    margin-bottom: 12px;
+    font-size: 16px;
+    background: #EA4C89;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.container button, .container input {
+    border: none;
+    border-radius: 5px;
+    margin-top: 12px;
+}
